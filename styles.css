@@ -1,0 +1,39 @@
+body{
+  background-color: rgb(172, 172, 172);
+  align-items: center;
+  justify-content: center;
+}
+.headline{
+  color:rgb(255, 230, 0);
+  text-align: center;
+  font-size: 40px;
+  
+}
+.searchbox{
+  height: 200px;
+  background-color: rgb(20, 20, 20);
+  overflow: hidden;
+  width: 1920px;
+  margin-left: -8px;
+  margin-top: -8px;
+}
+.inputbox{
+  padding-left: 810px;
+}
+input{
+  width: 25%;
+  text-align: center;
+  height: 30px;
+  font-size: 20px;
+}
+.elokuva{
+  flex-wrap: wrap;
+  padding: 20px;
+  color: white;
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
